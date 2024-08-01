@@ -1,0 +1,26 @@
+{
+  "name": "export_all_chinese_tool",
+  "version": "1.0.0",
+  "description": "导出指定目录下的文件出现过的中文字符",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^3.2.5",
+    "typescipt": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx ts-node ExportAllChineseCharacters.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sleepy-Ling/ExportAllChineseTool.git"
+  },
+  "author": "Ling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sleepy-Ling/ExportAllChineseTool/issues"
+  },
+  "homepage": "https://github.com/Sleepy-Ling/ExportAllChineseTool#readme"
+}
